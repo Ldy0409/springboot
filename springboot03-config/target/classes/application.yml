@@ -1,0 +1,38 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /springboot03
+
+
+user:
+  username: admin
+  age: 18
+  atatus: true
+  birthday: 2020/2/9
+  address:
+    province: 山东省
+    city: 淄博市
+  lists:
+    - lists1
+    - lists2
+    - lists3
+  maps: {k1: v1,k2: v2}
+#在第一个文档块中,用这个指定执行哪个环境配置
+spring:
+  profiles:
+    active: dev
+#用---区分多个文档块
+---
+
+server:
+  port: 8008
+#在此处表示各文档块的名称
+spring:
+  profiles: dev
+---
+spring:
+  profiles: test
+
+---
+spring:
+  profiles: prod

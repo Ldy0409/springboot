@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.hengzhi.bean.User",
+      "sourceType": "com.hengzhi.bean.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.address",
+      "type": "com.hengzhi.bean.Address",
+      "sourceType": "com.hengzhi.bean.User"
+    },
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hengzhi.bean.User"
+    },
+    {
+      "name": "user.birthday",
+      "type": "java.util.Date",
+      "sourceType": "com.hengzhi.bean.User"
+    },
+    {
+      "name": "user.lists",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.hengzhi.bean.User"
+    },
+    {
+      "name": "user.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.hengzhi.bean.User"
+    },
+    {
+      "name": "user.status",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.hengzhi.bean.User"
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.hengzhi.bean.User"
+    }
+  ],
+  "hints": []
+}
